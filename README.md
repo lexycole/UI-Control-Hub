@@ -1,44 +1,45 @@
-# ailuon
-
-Node 18 has been used 
-
-for developpers: Please clone and try to run local. If you encounter error, show screenshots in groupchat and Sami will help you !
-
-Doc for medical files/sessions : https://docs.google.com/document/d/1Aynyf-Zt6d-q4yhNyA5Kc5LY9b5ZwFzydGGxHQ5z3wM/edit?usp=sharing
-Doc of timelines: https://docs.google.com/document/d/16B8zkDxa97xENc4U3_cic5VS9nJSNHQ_iTOzkGcpm-k/edit?usp=sharing
-Doc for userprofile https://docs.google.com/document/d/1xcJ6LJ30fYVDdMIj-NYe2Y7ADVfxNjg5YdhsQEU0L1Y/edit?usp=sharing
-Doc for scrums/CRUDS: https://docs.google.com/document/d/173vQuU-zaVnvIiprV3ycntrGH1gBFkzvuJJ4YyITGIs/edit?usp=sharing
-Doc for Drive : https://docs.google.com/document/d/1b3-MGh5ZrDYpCPuEfM9oKtAOOLzBDy5OR-m1YU-EpqA/edit?usp=sharing
-Doc of timelinetasks: https://docs.google.com/document/d/16B8zkDxa97xENc4U3_cic5VS9nJSNHQ_iTOzkGcpm-k/edit?usp=sharing
-
-## Development Mode
-
-Check the live demo here 👉️ [http://aivoluon.com:3000/](http://aivoluon.com:3000/)
-
-to install packages with conflict
-npm i  --legacy-peer-deps
-use latest lts version of node
-
-changelog
-react-calendar 3.4.0
-dist/esm/shared/dates.js 
+# UI-Control-Hub🎛️
 
 
-return weekday === SATURDAY || weekday === SUNDAY;
-to
-return weekday === SUNDAY;
+# About ✍️
+UI-Control-Hub is a powerful application designed to centralize and manage various aspects of the user interface. It provides comprehensive control over sidebar behavior, page layout, and scroll interactions, offering a seamless user experience.
+- Fetching of collection formulas.
+- CRUD of formula.
+- Import the tongue color options from file options and display the values as Drop-down in formula.
 
 
+# Demo/Features 📺
+👉Formular Screen
+<img src="https://user-images.githubusercontent.com/40228505/230880639-9777ad2a-deed-4bad-9ec3-f525a0952627.png" width="300" height="500">
 
-return weekday === FRIDAY || weekday === SATURDAY;
-to
-return weekday === FRIDAY;
+
+<img src="https://github.com/lexycole/UI-Control-Hub/assets/40228505/3dada087-b327-48ee-be2b-ea40818f0d25">
 
 
-# Adminitration of patients, doctors, clinics, receptions, accountants
-# Calendar, Scheduler an administration of appointments
-# Administration of Tickets
-# Administration of Accounting for invoices, income, expenses
-# Administration of Medical Files
+<img src="https://github.com/lexycole/UI-Control-Hub/assets/40228505/9a3c3277-4a99-4a92-98ee-8f7dd4b8e88a">
 
-install node modules 
+
+<img src="https://github.com/lexycole/UI-Control-Hub/assets/40228505/d4bcce66-604d-4cf2-aba4-15359c5770f4">
+
+
+<img src="https://github.com/lexycole/UI-Control-Hub/assets/40228505/443070fd-1192-4dbd-964c-ead184f5ee22">
+
+
+<img src="https://github.com/lexycole/UI-Control-Hub/assets/40228505/1aa7d8d3-041b-413e-8f6b-2e1c794ebaec">
+
+
+<img src="https://github.com/lexycole/UI-Control-Hub/assets/40228505/c40b365c-f3a1-460e-bf4e-8d09c5a5c401">
+
+
+<img src="https://github.com/lexycole/UI-Control-Hub/assets/40228505/15001d45-883f-4e88-8410-c8d41498d327">
+
+
+<img src="https://github.com/lexycole/UI-Control-Hub/assets/40228505/8789ad04-4a62-4d13-9ee2-f5c2932a2409">
+
+
+# 👨‍💻 Author 
+Aluion team and I, [Akinro Olawale](https://github.com/lexycole)
+
+
+# 🔖 Licence
+The project is available under the [MIT License](https://github.com/lexycole/Soul-Meet-Universe/blob/main/LICENSE).
