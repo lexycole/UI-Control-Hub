@@ -1,0 +1,17 @@
+.sheet-save{
+    width: 200px;
+    text-align: center;
+}
+.savedTrue{
+    font-size: 15px;
+    color: #4BB543;
+    font-weight: bold;
+}
+.saveButton{
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: bold;
+}

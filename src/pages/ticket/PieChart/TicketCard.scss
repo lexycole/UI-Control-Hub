@@ -1,0 +1,82 @@
+.pie-ticket-card {
+  font-family: sans-serif;
+  color: #333;
+  padding: 4px;
+  background-color: rgba($color: #fff, $alpha: 0.85);
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+
+  .priority-ribbon {
+    position: absolute;
+    padding: 1px;
+    top: 0px;
+    right: 0px;
+    background: #f3d;
+    color: #fff;
+    z-index: 30px;
+    
+    & small {
+      font-size: 10px;
+    }
+  }
+
+  main {
+    flex: 1;
+    .title {
+      color: #222;
+      font-size: 16px;
+      line-height: 1.1;
+      margin: 0px;
+    }
+    .message {
+      margin: 4px 0;
+      text-align: center;
+      color: #333;
+      font-size: 15px;
+      line-height: 1.1;
+      max-height: 70px;
+      overflow: hidden;
+    }
+  }
+
+  header {
+    img {
+      width: 25px;
+      height: 25px;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    p {
+      display: inline-block;
+      padding-left: 8px;
+      margin-bottom: 2px;
+    }
+  }
+
+  footer {
+    display: flex;
+    gap: 2px;
+    min-height: 20px;
+    font-size: 10px;
+    line-height: 1.1;
+    .category {
+      background-color: #dca33a;
+      padding: 2px;
+      padding-left: 4px;
+      flex: 2;
+      display: flex;
+      align-items: center;
+    }
+
+    .status {
+      padding: 2px;
+      flex: 1;
+      color: #fff;
+      text-align: center;
+    }
+  }
+}
